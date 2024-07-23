@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Password Validator</title>
+</head>
+
+<body>
+    <div id="main">
+        <h1>Password Validator</h1>
+        <input type="password" name="password" id="password" placeholder="Enter Password">
+        <div class="container">
+            <h2>Password Must Contain</h2>
+            <div id="lists">
+                <ul id="dot-list">
+                    <li class="a1"><i class="fa-solid fa-circle"></i></li>
+                    <li class="a2"><i class="fa-solid fa-circle"></i></li>
+                    <li class="a3"><i class="fa-solid fa-circle"></i></li>
+                    <li class="a4"><i class="fa-solid fa-circle"></i></li>
+                    <li class="a5"><i class="fa-solid fa-circle"></i></li>
+                </ul>
+                <ul id="check-list">
+                    <li id="number">1 Number (0-9)</li>
+                    <li id="letters">12 Letters</li>
+                    <li id="special-character">1 Special Character</li>
+                    <li id="upper-case">1 Upper Case Letter</li>
+                    <li id="lower-case">1 Lower Case Letter</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
